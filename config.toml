@@ -9,9 +9,9 @@ googleAnalytics = ""
     author = "Evan Smith"
     description = "Ph.D. Candidate"
     githubUsername = "#"
-    accent = "red"
+    accent = "SeaGreen"
     showBorder = true
-    backgroundColor = "white"
+    backgroundColor = "DimGray"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
@@ -23,7 +23,7 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
-    url = "/about/"
+    url = "/top/about/"
     name = "About"
     weight = 2
 

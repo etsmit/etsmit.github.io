@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evan Smith</title>
-    <link>https://etsmit.github.io/</link>
-    <description>Recent content on Evan Smith</description>
+    <title>Tops on Evan Smith</title>
+    <link>https://etsmit.github.io/top/</link>
+    <description>Recent content in Tops on Evan Smith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 18:39:59 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 18:39:59 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ABOUT</title>
       <link>https://etsmit.github.io/top/about/</link>
