@@ -4,15 +4,25 @@
   <url>
     <loc>https://etsmit.github.io/top/about/</loc>
     <lastmod>2022-01-27T18:39:59-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://etsmit.github.io/</loc>
     <lastmod>2022-01-27T18:39:59-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://etsmit.github.io/top/</loc>
     <lastmod>2022-01-27T18:39:59-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://etsmit.github.io/categories/</loc>
+    <loc>https://etsmit.github.io/designs/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://etsmit.github.io/tags/</loc>
+    <loc>https://etsmit.github.io/techs/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

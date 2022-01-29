@@ -1,8 +1,8 @@
 baseURL = "https://etsmit.github.io/"
 languageCode = "en-us"
-title = "Edna West"
+title = "Evan Smith"
 theme = "personal-web"
-copyright="© Edna West"
+copyright="© Evan Smith"
 googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
@@ -10,8 +10,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm Edna :wave:"
-  sub = "I'm a Web Developer and Entrepreneur"
+  main = "Evan Smith"
+  sub = "Ph.D. Candidate"
 
 [params.main]
   latestPublishHeader = "My Latest Project"
@@ -48,19 +48,12 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/"
-  twitter = "https://twitter.com/"
+  github = "https://github.com/etsmit"
+  twitter = "https://twitter.com/SpectralSmitty"
   linkedin = "https://www.linkedin.com/in/"
-  medium = "https://medium.com/"
-  codepen = "https://codepen.io/"
-  facebook = "https://www.facebook.com/"
-  youtube = "https://www.youtube.com/"
-  instagram = "https://www.instagram.com/"
-  gitlab = "https://gitlab.com/"
-  keybase = "https://keybase.io/"
 
 [params.contact]
-  email = ""
+  email = "etsmit12@gmail.com"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
@@ -70,7 +63,7 @@ pygmentsCodeFences=true
   identifier = "about"
   name = "About"
   title = "About section"
-  url = "/about/"
+  url = "/top/about/"
   weight = -120
 
 [[menu.main]]
