@@ -42,7 +42,7 @@ pygmentsCodeFences=true
 [params.sidebar]
   backgroundImage = 'images/sinc90.png' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "images/pfp_cropped" # - default "/images/edna-west.jpg"
+  logo = "images/pfp_cropped.jpg" # - default "/images/edna-west.jpg"
 [params.assets]
   favicon = ""
   customCSS = ""
@@ -64,13 +64,20 @@ pygmentsCodeFences=true
   name = "About"
   title = "About section"
   url = "/top/about/"
-  weight = -120
+  weight = -130
 
 [[menu.main]]
   identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio"
-  url = "/portfolio/"
+  name = "RFI Mitigation"
+  title = "RFI Mitigation"
+  url = "/top/RFI-Mitigation/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "side-projects"
+  name = "Side Projects"
+  title = "Side Projects"
+  url = "/top/side-projects/"
   weight = -110
 
 [[menu.main]]

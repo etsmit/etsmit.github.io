@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projs on Evan Smith</title>
+    <link>https://etsmit.github.io/proj/</link>
+    <description>Recent content in Projs on Evan Smith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Evan Smith</copyright>
+    <lastBuildDate>Sun, 30 Jan 2022 13:49:16 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/proj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Titanfall2</title>
+      <link>https://etsmit.github.io/proj/titanfall2/</link>
+      <pubDate>Sun, 30 Jan 2022 13:49:16 -0500</pubDate>
+      
+      <guid>https://etsmit.github.io/proj/titanfall2/</guid>
+      <description>I am a leaderboard moderator and speedrunner of Titanfall 2! Speedrunning is a hobby centered around completing a video game as fast as possible, using glitches, skips, and exploits. Each game is incredibly unique in the ways it can be broken apart and progressed through. Titanfall is a little bit of an exception, as there are not very many glitches used throughout the 1.5 hour run. We only go out-of-bounds twice, and only skip two scripted fight sequences.</description>
+    </item>
+    
+  </channel>
+</rss>

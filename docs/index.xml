@@ -7,14 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Evan Smith</copyright>
-    <lastBuildDate>Thu, 27 Jan 2022 18:39:59 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jan 2022 13:49:16 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Titanfall2</title>
+      <link>https://etsmit.github.io/proj/titanfall2/</link>
+      <pubDate>Sun, 30 Jan 2022 13:49:16 -0500</pubDate>
+      
+      <guid>https://etsmit.github.io/proj/titanfall2/</guid>
+      <description>I am a leaderboard moderator and speedrunner of Titanfall 2! Speedrunning is a hobby centered around completing a video game as fast as possible, using glitches, skips, and exploits. Each game is incredibly unique in the ways it can be broken apart and progressed through. Titanfall is a little bit of an exception, as there are not very many glitches used throughout the 1.5 hour run. We only go out-of-bounds twice, and only skip two scripted fight sequences.</description>
+    </item>
+    
+    <item>
+      <title>RFI Mitigation</title>
+      <link>https://etsmit.github.io/top/rfi-mitigation/</link>
+      <pubDate>Sun, 30 Jan 2022 11:21:36 -0500</pubDate>
+      
+      <guid>https://etsmit.github.io/top/rfi-mitigation/</guid>
+      <description>Modern radio telescopes are incredibly sensitive - they have to be in order to detect the weakest astronomical signals out there! Between the huge collecting area of their dishes and the amplifiers boosting the incoming signals by a factor of millions, these telescopes can collect incredibly dim radio emissions from a plethora of celestial objects. Humans, on the other hand, are incredibly loud. Our day-to-day lives are filled with all sorts of wireless transmissions, both intentional and unintentional.</description>
+    </item>
+    
     <item>
       <title>ABOUT</title>
       <link>https://etsmit.github.io/top/about/</link>
       <pubDate>Thu, 27 Jan 2022 18:39:59 -0500</pubDate>
       
       <guid>https://etsmit.github.io/top/about/</guid>
-      <description>I&amp;rsquo;m a Ph.D candidate at West Virginia University primarily focused on Radio Frequency Interference (RFI) Mitigation techniques. Any wireless transmissions (satellite, Bluetooth, Wi-Fi, radar, the list goes on&amp;hellip;) can be detected by the incredibly sensitive radio telescopes scattered around the world, and often prevents them from exploring interesting science. RFI Mitigation helps these telescopes recover sound scientific data and keep making incredible discoveries. Check out the RFI-Mitigation tab to read more about what I&amp;rsquo;ve been developing and learning about!</description>
+      <description>-- I&amp;rsquo;m a Ph.D candidate at West Virginia University primarily focused on Radio Frequency Interference (RFI) Mitigation techniques. Any wireless transmissions (satellite, Bluetooth, Wi-Fi, radar, the list goes on&amp;hellip;) can be detected by the incredibly sensitive radio telescopes scattered around the world, and often prevents them from exploring interesting science. RFI Mitigation helps these telescopes recover sound scientific data and keep making incredible discoveries. Check out the RFI-Mitigation tab to read more about what I&amp;rsquo;ve been developing and learning about!</description>
     </item>
     
   </channel>
