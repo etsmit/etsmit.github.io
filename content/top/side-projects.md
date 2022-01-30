@@ -8,4 +8,4 @@ I do things and stuff
 
 
 
-[Titanfall 2 Into the Abyss Skip](/content/proj/Titanfall2/)
+[Titanfall 2 Into the Abyss Skip](/proj/Titanfall2/)

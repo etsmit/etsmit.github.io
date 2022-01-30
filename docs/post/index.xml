@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Evan Smith</title>
+    <link>https://etsmit.github.io/post/</link>
+    <description>Recent content in Posts on Evan Smith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Evan Smith</copyright>
+    <lastBuildDate>Sun, 30 Jan 2022 18:48:24 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://etsmit.github.io/post/first-post/</link>
+      <pubDate>Sun, 30 Jan 2022 18:48:24 -0500</pubDate>
+      
+      <guid>https://etsmit.github.io/post/first-post/</guid>
+      <description>First Post
+Seeing as I&amp;rsquo;ll be done with school soon, I should make a personal website. After some frustrations, I got this Hugo site deployed by Github pages.</description>
+    </item>
+    
+  </channel>
+</rss>
