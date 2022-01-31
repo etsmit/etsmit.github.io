@@ -41,7 +41,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://etsmit.github.io/images/pfp_cropped.jpg' alt="Profile Tops" class="rounded-logo">
+        <img src='https://etsmit.github.io/images/pfp_cropped.jpg' alt="Profile Techs" class="rounded-logo">
       </a>
     </div>
     <h2>Evan Smith</h2>
@@ -56,8 +56,8 @@
         </p>
 
         <p>
-            <a href="/top/side-projects/">
-                Side Projects
+            <a href="/top/rfi-mitigation/">
+                RFI Mitigation
             </a>
         </p>
 
@@ -158,8 +158,8 @@
 </figure>
 <p>A special blender tool was created to import Titanfall 2 maps with all the triggers, shown above. We start up in the tower-looking thing in the top left, move down into the lower part of the level and ride the platforms all the way around up into the first dome, which is outlined in green in the center of the picture. From there, the game teleports us to the second dome, outlined in purple and blue in the top center. We do an out-of-bounds trick to get teleported directly to the end-level trigger, which is the small orange box.</p>
 <p>There are two possible ways to reach the trigger without waiting for the platform. The first is to route out an out-of-bounds route that hits all the level triggers and starts the teleport sequence. This <em>has</em> been done, but the route takes about 15 minutes to complete - far more than the current 6 minutes it takes. The second way is to induce what is known as &ldquo;glitch state&rdquo; - an exceedingly rare game state where the player&rsquo;s hitbox does not act correctly, allowing you to &ldquo;phase&rdquo; through many walls. <a href="https://clips.twitch.tv/ScarySingleBoarUWot-YFySZXFGMlWTizb5">Here is a clip of Bryonato getting glitch state while practicing.</a> At the end of the video, you can see how they walk/see through some of the rock faces.</p>
-<p>It is theorized the glitch state is caused by the checkpoints not saving correctly, or getting something corrupted. If a consistent way to get glitch state is found, we may be able to route and out-of-bounds path directly to the level trigger. Finding this is difficult, however. Instead of trying to brute force it in-game, we can check out the game&rsquo;s code. Much of the level scripts are written in <a href="https://noskill.gitbook.io/titanfall2/documentation/file-format/nut-and-gnut-squirrel">Squirrel</a>, so we can read when and where the game is calling certain functions:</p>
-<figure><img src="/images/_savegame.png"
+<p>It is theorized that glitch state is caused by the checkpoints not saving correctly, or getting something corrupted. If a consistent way to get glitch state is found, we may be able to route and out-of-bounds path directly to the level trigger. Finding this is difficult, however. Instead of trying to brute force it in-game, we can check out the game&rsquo;s code. Much of the level scripts are written in <a href="https://noskill.gitbook.io/titanfall2/documentation/file-format/nut-and-gnut-squirrel">Squirrel</a>, so we can read when and where the game is calling certain functions:</p>
+<figure><img src="/images/savegame.png"
          alt="Squirrel script calling the SaveGame_Create function"/><figcaption>
             <p>Squirrel script calling the SaveGame_Create function</p>
         </figcaption>

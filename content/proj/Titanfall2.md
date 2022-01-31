@@ -21,9 +21,9 @@ A special blender tool was created to import Titanfall 2 maps with all the trigg
 
 There are two possible ways to reach the trigger without waiting for the platform. The first is to route out an out-of-bounds route that hits all the level triggers and starts the teleport sequence. This *has* been done, but the route takes about 15 minutes to complete - far more than the current 6 minutes it takes. The second way is to induce what is known as "glitch state" - an exceedingly rare game state where the player's hitbox does not act correctly, allowing you to "phase" through many walls. [Here is a clip of Bryonato getting glitch state while practicing.](https://clips.twitch.tv/ScarySingleBoarUWot-YFySZXFGMlWTizb5) At the end of the video, you can see how they walk/see through some of the rock faces.
 
-It is theorized the glitch state is caused by the checkpoints not saving correctly, or getting something corrupted. If a consistent way to get glitch state is found, we may be able to route and out-of-bounds path directly to the level trigger. Finding this is difficult, however. Instead of trying to brute force it in-game, we can check out the game's code. Much of the level scripts are written in [Squirrel](https://noskill.gitbook.io/titanfall2/documentation/file-format/nut-and-gnut-squirrel), so we can read when and where the game is calling certain functions:
+It is theorized that glitch state is caused by the checkpoints not saving correctly, or getting something corrupted. If a consistent way to get glitch state is found, we may be able to route and out-of-bounds path directly to the level trigger. Finding this is difficult, however. Instead of trying to brute force it in-game, we can check out the game's code. Much of the level scripts are written in [Squirrel](https://noskill.gitbook.io/titanfall2/documentation/file-format/nut-and-gnut-squirrel), so we can read when and where the game is calling certain functions:
 
-{{< figure src="/images/_savegame.png"
+{{< figure src="/images/savegame.png"
 caption="Squirrel script calling the SaveGame_Create function" >}}
 
 
