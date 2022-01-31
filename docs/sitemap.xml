@@ -27,12 +27,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://etsmit.github.io/top/rfi-mitigation/</loc>
-    <lastmod>2022-01-30T11:21:36-05:00</lastmod>
+    <loc>https://etsmit.github.io/top/side-projects/</loc>
+    <lastmod>2022-01-30T11:29:52-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://etsmit.github.io/top/</loc>
+    <lastmod>2022-01-30T11:29:52-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://etsmit.github.io/top/rfi-mitigation/</loc>
     <lastmod>2022-01-30T11:21:36-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

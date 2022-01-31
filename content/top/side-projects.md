@@ -1,7 +1,7 @@
 ---
 title: "Side Projects"
 date: 2022-01-30T11:29:52-05:00
-draft: true
+draft: false
 ---
 
 I do things and stuff
