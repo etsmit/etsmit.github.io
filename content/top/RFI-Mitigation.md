@@ -33,7 +33,11 @@ There are lots of different techniques to remove RFI from data, with varying deg
  - Reference Antenna Cancellation
  - Cyclostationary Detection
 
-My main focus recently has been on Spectral Kurtosis, developed by Gelu Nita and Dale Gary. For each spectral channel, we collect some statistically significant number of *M* squared power values, and use an estimator to calculate the gaussianity of the underlying distribution. If the data is clean, it should only contain data generated from a perfect normal gaussian distribution. If RFI is present, however, it can cause that distribution to become more 'flat-topped' or 'spiky', which our estimator can pick up on. Thus, we can flag contaminated data.
+My main focus recently has been on Spectral Kurtosis, developed by Gelu Nita and Dale Gary. For each spectral channel, we collect some statistically significant number of *M* squared power values, and use an estimator to calculate the gaussianity of the underlying distribution. If the data is clean, it should only contain data generated from a perfect normal gaussian distribution. If RFI is present, however, it can cause that distribution to become more 'flat-topped' or 'spiky', which our estimator can pick up on. Thus, we can flag contaminated data. Some more reading can be found at:
+
+[Nita et. al 2010a](https://academic.oup.com/mnrasl/article/406/1/L60/1041152?login=false)
+[Nita et. al 2010b](https://iopscience.iop.org/article/10.1086/652409)
+
 
 I'm currently working on a paper testing the effectiveness of Spectral Kurtosis mitigation against a collection of realistic simulated RFI signals, as well as testing the technique on high-resolution pulsar data taken with the Green Bank Telescope.
 

@@ -30,7 +30,7 @@
   <meta itemprop="name" content="RFI Mitigation">
 <meta itemprop="description" content="Modern radio telescopes are incredibly sensitive - they have to be in order to detect the weakest astronomical signals out there! Between the huge collecting area of their dishes and the amplifiers boosting the incoming signals by a factor of millions, these telescopes can collect incredibly dim radio emissions from a plethora of celestial objects. Humans, on the other hand, are incredibly loud. Our day-to-day lives are filled with all sorts of wireless transmissions, both intentional and unintentional."><meta itemprop="datePublished" content="2022-01-30T11:21:36-05:00" />
 <meta itemprop="dateModified" content="2022-01-30T11:21:36-05:00" />
-<meta itemprop="wordCount" content="397">
+<meta itemprop="wordCount" content="412">
 <meta itemprop="keywords" content="" />
 </head>
 <body>
@@ -41,7 +41,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://etsmit.github.io/images/pfp_cropped.jpg' alt="Profile Side Projects" class="rounded-logo">
+        <img src='https://etsmit.github.io/images/pfp_cropped.jpg' alt="Profile " class="rounded-logo">
       </a>
     </div>
     <h2>Evan Smith</h2>
@@ -185,7 +185,9 @@
 <li>Reference Antenna Cancellation</li>
 <li>Cyclostationary Detection</li>
 </ul>
-<p>My main focus recently has been on Spectral Kurtosis, developed by Gelu Nita and Dale Gary. For each spectral channel, we collect some statistically significant number of <em>M</em> squared power values, and use an estimator to calculate the gaussianity of the underlying distribution. If the data is clean, it should only contain data generated from a perfect normal gaussian distribution. If RFI is present, however, it can cause that distribution to become more &lsquo;flat-topped&rsquo; or &lsquo;spiky&rsquo;, which our estimator can pick up on. Thus, we can flag contaminated data.</p>
+<p>My main focus recently has been on Spectral Kurtosis, developed by Gelu Nita and Dale Gary. For each spectral channel, we collect some statistically significant number of <em>M</em> squared power values, and use an estimator to calculate the gaussianity of the underlying distribution. If the data is clean, it should only contain data generated from a perfect normal gaussian distribution. If RFI is present, however, it can cause that distribution to become more &lsquo;flat-topped&rsquo; or &lsquo;spiky&rsquo;, which our estimator can pick up on. Thus, we can flag contaminated data. Some more reading can be found at:</p>
+<p><a href="https://academic.oup.com/mnrasl/article/406/1/L60/1041152?login=false">Nita et. al 2010a</a>
+<a href="https://iopscience.iop.org/article/10.1086/652409">Nita et. al 2010b</a></p>
 <p>I&rsquo;m currently working on a paper testing the effectiveness of Spectral Kurtosis mitigation against a collection of realistic simulated RFI signals, as well as testing the technique on high-resolution pulsar data taken with the Green Bank Telescope.</p>
 <!-- <figure><img src="/post/images/sample_image.jpg"
          alt="Photo by Tim Mossholder on Unsplash"/><figcaption>
