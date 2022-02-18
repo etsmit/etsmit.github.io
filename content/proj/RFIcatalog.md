@@ -1,5 +1,5 @@
 ---
-title: "RFI catalog"
+title: "RFIcatalog"
 date: 2022-02-18T17:30:17-05:00
 draft: false
 ---
