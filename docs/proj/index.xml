@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Evan Smith</copyright>
-    <lastBuildDate>Sun, 30 Jan 2022 13:49:16 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/proj/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 17:30:17 -0500</lastBuildDate><atom:link href="https://etsmit.github.io/proj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RFI catalog</title>
+      <link>https://etsmit.github.io/proj/rficatalog/</link>
+      <pubDate>Fri, 18 Feb 2022 17:30:17 -0500</pubDate>
+      
+      <guid>https://etsmit.github.io/proj/rficatalog/</guid>
+      <description>I&amp;rsquo;ve been working on a catalog of all known possible sources of RFI using various databases, available here.. This spreadsheet has an entry for every recorded wireless transmission source from:
+ Met. Sat. database OSCAR SigID Wiki JE9PEL  As well as Wikipedia in general and Green Bank&amp;rsquo;s own database. The current list only covers L-band, though I want to include more tabs for other bands as well.
+ A collection of satellite transmissions and information about them.</description>
+    </item>
+    
     <item>
       <title>Titanfall2</title>
       <link>https://etsmit.github.io/proj/titanfall2/</link>

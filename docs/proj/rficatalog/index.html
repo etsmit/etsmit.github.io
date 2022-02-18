@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'><head>
-  <title>RFI Mitigation - Evan Smith</title>
-  <link rel='canonical' href='https://etsmit.github.io/top/rfi-mitigation/' />
+  <title>RFI catalog - Evan Smith</title>
+  <link rel='canonical' href='https://etsmit.github.io/proj/rficatalog/' />
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <meta name='description' content='' />
@@ -19,18 +19,22 @@
 <link rel="stylesheet" href="https://etsmit.github.io/sass/style.min.8a1658d134a4b54730b66789206b2cf14c1b006a6de3f3fde6302f925b6e01f5.css" integrity="sha256-ihZY0TSktUcwtmeJIGss8UwbAGpt4/P95jAvkltuAfU=" media="screen">
 <link rel="stylesheet" href="https://etsmit.github.io/syntax.min.css" integrity="" media="screen">
 
-  <meta property="og:title" content="RFI Mitigation" />
-<meta property="og:description" content="Modern radio telescopes are incredibly sensitive - they have to be in order to detect the weakest astronomical signals out there! Between the huge collecting area of their dishes and the amplifiers boosting the incoming signals by a factor of millions, these telescopes can collect incredibly dim radio emissions from a plethora of celestial objects. Humans, on the other hand, are incredibly loud. Our day-to-day lives are filled with all sorts of wireless transmissions, both intentional and unintentional." />
+  <meta property="og:title" content="RFI catalog" />
+<meta property="og:description" content="I&rsquo;ve been working on a catalog of all known possible sources of RFI using various databases, available here.. This spreadsheet has an entry for every recorded wireless transmission source from:
+ Met. Sat. database OSCAR SigID Wiki JE9PEL  As well as Wikipedia in general and Green Bank&rsquo;s own database. The current list only covers L-band, though I want to include more tabs for other bands as well.
+ A collection of satellite transmissions and information about them." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://etsmit.github.io/top/rfi-mitigation/" /><meta property="article:section" content="top" />
-<meta property="article:published_time" content="2022-01-30T11:21:36-05:00" />
-<meta property="article:modified_time" content="2022-01-30T11:21:36-05:00" />
+<meta property="og:url" content="https://etsmit.github.io/proj/rficatalog/" /><meta property="article:section" content="proj" />
+<meta property="article:published_time" content="2022-02-18T17:30:17-05:00" />
+<meta property="article:modified_time" content="2022-02-18T17:30:17-05:00" />
 
 
-  <meta itemprop="name" content="RFI Mitigation">
-<meta itemprop="description" content="Modern radio telescopes are incredibly sensitive - they have to be in order to detect the weakest astronomical signals out there! Between the huge collecting area of their dishes and the amplifiers boosting the incoming signals by a factor of millions, these telescopes can collect incredibly dim radio emissions from a plethora of celestial objects. Humans, on the other hand, are incredibly loud. Our day-to-day lives are filled with all sorts of wireless transmissions, both intentional and unintentional."><meta itemprop="datePublished" content="2022-01-30T11:21:36-05:00" />
-<meta itemprop="dateModified" content="2022-01-30T11:21:36-05:00" />
-<meta itemprop="wordCount" content="412">
+  <meta itemprop="name" content="RFI catalog">
+<meta itemprop="description" content="I&rsquo;ve been working on a catalog of all known possible sources of RFI using various databases, available here.. This spreadsheet has an entry for every recorded wireless transmission source from:
+ Met. Sat. database OSCAR SigID Wiki JE9PEL  As well as Wikipedia in general and Green Bank&rsquo;s own database. The current list only covers L-band, though I want to include more tabs for other bands as well.
+ A collection of satellite transmissions and information about them."><meta itemprop="datePublished" content="2022-02-18T17:30:17-05:00" />
+<meta itemprop="dateModified" content="2022-02-18T17:30:17-05:00" />
+<meta itemprop="wordCount" content="148">
 <meta itemprop="keywords" content="" />
 </head>
 <body>
@@ -139,62 +143,36 @@
 
 
 <span >
-  <a href="https://etsmit.github.io/top/">Tops</a>
+  <a href="https://etsmit.github.io/proj/">Projs</a>
    / 
 </span>
 
 
 <span  class="active">
-  <a href="https://etsmit.github.io/top/rfi-mitigation/">RFI Mitigation</a>
+  <a href="https://etsmit.github.io/proj/rficatalog/">RFI catalog</a>
   
 </span>
 
 </div>
 
     
-    <main id="content" class="top">
+    <main id="content" class="proj">
 
-<h1>RFI Mitigation</h1>
-<p>Modern radio telescopes are <em>incredibly</em> sensitive - they have to be in order to detect the weakest astronomical signals out there! Between the huge collecting area of their dishes and the amplifiers boosting the incoming signals by a factor of millions, these telescopes can collect incredibly dim radio emissions from a plethora of celestial objects. Humans, on the other hand, are incredibly loud. Our day-to-day lives are filled with all sorts of wireless transmissions, both intentional and unintentional. I&rsquo;ve listed many objects below that emit electromagnetic energy, though the list is in no way exhaustive.</p>
+<h1>RFI catalog</h1>
+<p>I&rsquo;ve been working on a catalog of all known possible sources of RFI using various databases, <a href="https://docs.google.com/spreadsheets/d/1MAK5FBJo5xIQESxf3t1DqE8f7ujrwv9_bjh3k_xaB28/edit?usp=sharing">available here.</a>. This spreadsheet has an entry for every recorded wireless transmission source from:</p>
 <ul>
-<li>Satellite internet/phone service</li>
-<li>Bluetooth</li>
-<li>Wi-Fi</li>
-<li>Wireless phone charging pads</li>
-<li>Spark plugs (!)</li>
-<li>Airport/Weather radar</li>
-<li>Powerline transformers</li>
-<li>Any unshielded electrical device</li>
+<li><a href="http://mdkenny.customer.netspace.net.au/metsat_frequencies.html">Met. Sat. database</a></li>
+<li><a href="https://space.oscar.wmo.int/satellitefrequencies">OSCAR</a></li>
+<li><a href="https://www.sigidwiki.com/wiki/Signal_Identification_Guide">SigID Wiki</a></li>
+<li><a href="http://www.ne.jp/asahi/hamradio/je9pel/satslist.htm">JE9PEL</a></li>
 </ul>
-<p>All of these human-made signals, known as Radio Frequency Interference (RFI) are massively more powerful than the typical celestial signals we try to capture, and block us from gathering useful scientific data. It is imperative, therefore, that we develop techniques to reduce or eliminate this RFI all together. Usually, you just build your telescope away from most sources of RFI as is the case of the Green Bank Observatory, which uses the natural mountainous terrain of West Virginia to hide themselves from most wireless communications. But, some RFI can always leak in.</p>
-<figure><img src="/images/iridium.png"
-         alt="Iridium satellite communications at 1620 MHz"/><figcaption>
-            <p>Iridium satellite communications at 1620 MHz</p>
+<p>As well as Wikipedia in general and Green Bank&rsquo;s own database. The current list only covers L-band, though I want to include more tabs for other bands as well.</p>
+<figure><img src="/images/catalog.png"
+         alt="A collection of satellite transmissions and information about them."/><figcaption>
+            <p>A collection of satellite transmissions and information about them.</p>
         </figcaption>
 </figure>
-<figure><img src="/images/bedfordradar.png"
-         alt="One sweep of the Bedford, NC FAA radar at 1235 MHz"/><figcaption>
-            <p>One sweep of the Bedford, NC FAA radar at 1235 MHz</p>
-        </figcaption>
-</figure>
-<p>There are lots of different techniques to remove RFI from data, with varying degrees of complexity and success - some of the RFI mitigation methods I&rsquo;ve explored include:</p>
-<ul>
-<li>Median absolute deviation</li>
-<li>Subspace Cancellation</li>
-<li>Sigma Thresholding</li>
-<li>Reference Antenna Cancellation</li>
-<li>Cyclostationary Detection</li>
-</ul>
-<p>My main focus recently has been on Spectral Kurtosis, developed by Gelu Nita and Dale Gary. For each spectral channel, we collect some statistically significant number of <em>M</em> squared power values, and use an estimator to calculate the gaussianity of the underlying distribution. If the data is clean, it should only contain data generated from a perfect normal gaussian distribution. If RFI is present, however, it can cause that distribution to become more &lsquo;flat-topped&rsquo; or &lsquo;spiky&rsquo;, which our estimator can pick up on. Thus, we can flag contaminated data. Some more reading can be found at:</p>
-<p><a href="https://academic.oup.com/mnrasl/article/406/1/L60/1041152?login=false">Nita et. al 2010a</a>
-<a href="https://iopscience.iop.org/article/10.1086/652409">Nita et. al 2010b</a></p>
-<p>I&rsquo;m currently working on a paper testing the effectiveness of Spectral Kurtosis mitigation against a collection of realistic simulated RFI signals, as well as testing the technique on high-resolution pulsar data taken with the Green Bank Telescope.</p>
-<!-- <figure><img src="/post/images/sample_image.jpg"
-         alt="Photo by Tim Mossholder on Unsplash"/><figcaption>
-            <p>Photo by Tim Mossholder on Unsplash</p>
-        </figcaption>
-</figure>
- -->
+<p>Eventually, I want to match up sources in this table with sources I see in observed data and mark down if they can be flagged automatically by various RFI mitigation techniques (Spectral Kurtosis, Cyclostationary, etc). This will hopefully increase my understanding of RFI environments and statistical mitigation. If you have any insights into this side project, or know of any other places where I can collect info, I&rsquo;d love to hear from you!</p>
 
 
     </main>
